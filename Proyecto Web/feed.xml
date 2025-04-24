@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <atom:link href="https://antropica.netlify.app/rss/feed.xml" rel="self" type="application/rss+xml"/>
+        <ttl>60</ttl>
+        <title>Antropica</title>
+        <link>https://antropica.netlify.app/</link>
+        <description>Actualizaciones de la página web</description>
+        <language>es</language>
+        <pubDate>Thu, 24 Apr 2025 13:00:00 EST</pubDate>
+        <lastBuildDate>Thu, 24 Apr 2025 13:00:00 EST</lastBuildDate>
+        <managingEditor>atm0027@alu.medac.es (Alejandro Torres Muñoz)</managingEditor>
+        
+        <item>
+            <title>Cambios Home</title>
+            <link>https://antropica.netlify.app/</link>
+            <description>Se han añadido fotos al home</description>
+            <guid isPermaLink="true">https://antropica.netlify.app</guid>
+            <pubDate>Thu, 24 Apr 2025 14:00:00 EST</pubDate>
+        </item>
+    </channel>
+</rss>

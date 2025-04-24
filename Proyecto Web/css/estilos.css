@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: "Rexton"; 
+}
+@font-face { 
+    font-family: "Rexton"; 
+    src: url("../fonts/SpaceMono-Regular.ttf") format("truetype");
+    font-weight: normal; 
+    font-style: normal;
+}
+.padre {
+    background-image: url("../imagenes/fondo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.content {
+    flex-grow: 1;    
+    overflow-y: scroll;
+
+}
+
+.divlogo{
+    background-color: black;
+}
+.logo { 
+    width: 7%;
+    height: 7%;
+}
+img {
+    width: 25%;
+}
+
+.boton {
+    color: black;
+}
+
+#cabecera{
+    background-color: black;
+    width: 100%;
+    float: inline-end;
+    text-align: center;
+}
+.div-menu {
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    align-items: start;
+}
+.div-icono{
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.cont-divicono{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+
+}
+.icono {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin: 3px;
+    border-radius: 2px;
+}
+nav {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    display: none;
+    margin-right: 27px;
+    border-radius: 25px 5px 25px 25px;
+    border: 2px;
+}
+.enlacenav {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    list-style: none;
+    text-align: right;
+    z-index: 3;
+    padding-left: 15px;
+}
+.open{
+    display: flex;
+    background-color: rgb(189, 187, 187);
+}
+.enlacenav li{
+    color: white;
+    font-size: 120%;
+    padding: 10px;  
+    border-radius: 17px;
+    border: 2px solid;
+    margin-right: 15px;
+    
+}
+.enlacenav a:hover{
+    font-weight: bold;
+}
+
+.horario {
+    margin: auto;
+    margin-top: 30px;
+}
+
+.reservado {
+    list-style: none;
+}
+.formulario{
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 25px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255, 254, 254, 0.233);
+}
+.formulario2{
+    color: white;
+    width: fit-content;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 25px;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgba(255, 254, 254, 0.233);
+}
+
+.centrar {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.233);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.centrar2 {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+.nombre {
+    margin: auto;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+p {
+    color: white;
+}
+
+table{
+    background-color: white;
+}
+
+#pie{
+    color: gray;
+    background-color: black;
+    width: 100%;
+    float: inline-end;
+    text-align: center;
+}
+
